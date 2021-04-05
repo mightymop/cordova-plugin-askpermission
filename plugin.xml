@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plugin xmlns="http://www.phonegap.com/ns/plugins/1.0"
+        id="cordova-plugin-askpermission"
+        version="1.0.0">
+
+	<name>askpermission</name>
+
+	<engines>
+		<engine name="cordova" version=">=3.4.0"/>
+	</engines>
+
+	<asset src="www/Askpermission.js" target="js/Askpermission.js"/>
+
+	<js-module src="www/Askpermission.js" name="Askpermission">
+		<clobbers target="askpermission" />
+	</js-module>
+
+	<platform name="android">
+		<framework src="com.android.support:support-compat:28.0.0" />
+		<config-file target="res/xml/config.xml" parent="/*">
+			<feature name="Askpermission">
+				<param name="android-package" value="de.mopsdom.askpermission.Askpermission"/>
+				<!--param name="onload" value="true"/-->
+			</feature>
+		</config-file>
+
+		<source-file src="src/android/Askpermission.java" target-dir="src/de/mopsdom/askpermission"/>
+
+	</platform>
+
+
+</plugin>

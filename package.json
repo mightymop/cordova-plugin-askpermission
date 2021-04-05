@@ -1,0 +1,47 @@
+{
+  "_from": "git+https://github.com/mightymop/cordova-plugin-askpermission.git",
+  "_id": "cordova-plugin-askpermission@1.0.0",
+  "_inBundle": false,
+  "_integrity": "",
+  "_location": "/cordova-plugin-askpermission",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "git",
+    "raw": "https://github.com/mightymop/cordova-plugin-askpermission.git",
+    "rawSpec": "https://github.com/mightymop/cordova-plugin-askpermission.git",
+    "saveSpec": "git+https://github.com/mightymop/cordova-plugin-askpermission.git",
+    "fetchSpec": "https://github.com/mightymop/cordova-plugin-askpermission.git",
+    "gitCommittish": null
+  },
+  "_requiredBy": [
+    "#DEV:/",
+    "#USER"
+  ],
+  "_resolved": "git+https://github.com/mightymop/cordova-plugin-askpermission.git",
+  "_spec": "https://github.com/mightymop/cordova-plugin-askpermission.git",
+  "_where": "d:\\workspace\\vernehmung2\\DummyTypeScriptCordova",
+  "author": "",
+  "bundleDependencies": false,
+  "cordova": {
+    "id": "cordova-plugin-askpermission",
+    "platforms": [
+      "android"
+    ]
+  },
+  "deprecated": false,
+  "description": " ",
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=3.4.0"
+    }
+  ],
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "license": "ISC",
+  "name": "cordova-plugin-askpermission",
+  "types": "./types/index.d.ts",
+  "version": "1.0.0"
+}
